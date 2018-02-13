@@ -1,0 +1,6 @@
+**/*.rs.bk
+
+bin/
+obj/
+node_modules/
+target/

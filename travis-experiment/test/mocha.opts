@@ -1,0 +1,5 @@
+--full-trace
+--growl
+--recursive
+--sort
+test/**/*.test.js
