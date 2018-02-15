@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Learn Vue</title>
+        <script src="./src/app.js" defer></script>
+    </head>
+
+    <body>
+        <div id="app">
+            <p>VueJS is pretty cool - {{ name }}, ({{ age }})</p>
+            <p>{{ age }} * 3 = {{ age * 3 }}</p>
+            <p>Random number between 0 and 100: {{ randInt() }}</p>
+            <div>
+                <img v-bind:src="cat" alt="kitty"/>
+            </div>
+            <div>
+                <input type="text" v-bind:value="name">
+            </div>
+        </div>
+    </body>
+
+</html>
