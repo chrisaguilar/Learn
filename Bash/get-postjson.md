@@ -54,6 +54,7 @@ understand what's happening.
    Bash scripts are too finicky and getting one space wrong can create some
    nasty results)
 
+## `add-utilities.sh`
 ```shell
 #!/usr/bin/env bash
 
