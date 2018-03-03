@@ -1,0 +1,13 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+    print "Customers List:"
+    print "==============="
+}
+
+{ print NR, "-", $0 }
+
+END {
+    print "========"
+    print "num:" NR
+}
