@@ -11,5 +11,7 @@ namespace TowerDefense
                 throw new OutOfBoundsException(string.Format("{0}, {1} is outside the boundaries of the map.", x, y));
             }
         }
+
+        public bool InRangeOf(MapLocation location, int range) => DistanceTo(location) <= range;
     }
 }
