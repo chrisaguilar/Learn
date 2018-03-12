@@ -1,0 +1,16 @@
+moment.js - Time stuff
+numeral.js - Number formatting
+lodash - "Batteries-included" things
+boba.js - Google Analytics
+hammer.js - multi-touch gestures
+
+chalk
+commander
+fs-extra
+inquirer
+joi
+lodash
+moment
+request ===> axios
+socket.io
+winston
