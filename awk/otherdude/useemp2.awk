@@ -1,0 +1,5 @@
+#!/usr/bin/awk -f
+
+BEGIN { FS=","; OFS="*" }
+
+{ print $3,$2 }
