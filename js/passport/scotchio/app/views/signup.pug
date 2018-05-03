@@ -1,0 +1,31 @@
+extends layout
+
+block styles
+    style.
+        body {
+            padding-top: 80px;
+        }
+
+block body
+    .container
+        .col-sm-6.col-sm-offset-3
+            h1 #[span.fa.fa-sign-in] Signup
+
+            if message && message.length > 0
+                .alert.alert-danger= message
+
+            form(action="/signup", method="post")
+                .form-group
+                    label(for="email") Email
+                    input#email.form-control(type="text", name="email")
+
+                .form-group
+                    label(for="password") Password
+                    input#password.form-control(type="password", name="password")
+
+                button.btn.btn-warning.btn-lg(type="submit") Signup
+
+            hr
+
+            p Already have an account? #[a(href="/login") Login]
+            p Or go #[a(href="/") home].
